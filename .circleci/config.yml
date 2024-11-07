@@ -29,7 +29,7 @@ jobs:
           name: Deploy to Railway App
           command: |
             cd bankchurn-api 
-            railway link 18869846-ff89-4e47-94f7-8dac0dfa2ed5 265c69ef-2847-4b77-9726-bd3a6e6cf0ae
+            railway up --service=proud-appreciation -d
             railway up --detach
 
 
