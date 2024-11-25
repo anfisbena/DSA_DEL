@@ -14,4 +14,4 @@ COPY . .
 EXPOSE 8050
 
 # Comando para iniciar la aplicación
-CMD ["python", "app.py"]
+CMD ["python3", "app.py"]
